@@ -184,12 +184,7 @@ Display the contact email address set in the configuration file.
   {% endif %}
   for more information.
 </p>
-{% comment %}
-Application form
-{% endcomment %}
-<h3>Application form</h3>
-Please use this <a href ="https://forms.gle/yYitLCafkQV9oAmk9"><b>application form</b></a>.
-Successful candidates will be notified via email.
+
 
 
 <hr/>
