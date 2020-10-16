@@ -159,7 +159,10 @@ special instructions.
   in advance.  If we can help making learning easier for
  you.
 </p>
+<h3>Application</h3>
 
+Pleaes use this <a href ="https://forms.gle/yYitLCafkQV9oAmk9"><b>application form</b></a>.
+Successful candidates will be notified via email.
 {% comment %}
 CONTACT EMAIL ADDRESS
 
