@@ -161,7 +161,7 @@ special instructions.
 </p>
 <h3>Application</h3>
 
-Pleaes use this <a href ="https://forms.gle/yYitLCafkQV9oAmk9"><b>application form</b></a>.
+Please use this <a href ="https://forms.gle/yYitLCafkQV9oAmk9"><b>application form</b></a>.
 Successful candidates will be notified via email.
 {% comment %}
 CONTACT EMAIL ADDRESS
