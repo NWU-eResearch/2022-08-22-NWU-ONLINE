@@ -159,6 +159,11 @@ special instructions.
   in advance.  If we can help making learning easier for
  you.
 </p>
+<p>
+ <strong>Application form</strong>:
+ Please use this <a href ="https://forms.gle/yYitLCafkQV9oAmk9"><b>application form</b></a>.
+ Successful candidates will be notified via email.
+</p>
 
 {% comment %}
 CONTACT EMAIL ADDRESS
@@ -184,14 +189,6 @@ Display the contact email address set in the configuration file.
   {% endif %}
   for more information.
 </p>
-
-{% comment %}
-Application form
-{% endcomment %}
-<strong>Application form</strong>
-Please use this <a href ="https://forms.gle/yYitLCafkQV9oAmk9"><b>application form</b></a>.
-Successful candidates will be notified via email.
-
 
 <hr/>
 
