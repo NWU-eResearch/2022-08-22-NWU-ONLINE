@@ -134,8 +134,10 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Be a postgraduate student in the Humanities and Social Sciences.  Participants must have access to a laptop with a
-  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Some sponsorship is available to access mobile data - please contact the organisers for more information. They should have a few specific software packages installed. Since this is an online workshop, participants need to have access to internet (listed <a href="#setup">below</a>).
+  <strong>Requirements:</strong> Participants must have access to a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Some sponsorship is available to access mobile data - please contact the organisers for more information. They should have a few specific software packages installed. Since this is an online workshop, participants need to have access to internet (listed <a href="#setup">below</a>).
+  <strong>Application form</strong>:
+ Please use this <a href ="https://forms.gle/yYitLCafkQV9oAmk9"><b>application form</b></a>.
+ Successful candidates will be notified via email.
 </p>
 
 {% comment %}
@@ -158,11 +160,6 @@ special instructions.
  you will be able to ask the organisers for extra materials if needed
   in advance.  If we can help making learning easier for
  you.
-</p>
-<p>
- <strong>Application form</strong>:
- Please use this <a href ="https://forms.gle/yYitLCafkQV9oAmk9"><b>application form</b></a>.
- Successful candidates will be notified via email.
 </p>
 
 {% comment %}
