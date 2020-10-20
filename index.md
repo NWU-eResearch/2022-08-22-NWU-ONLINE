@@ -138,6 +138,12 @@ Modify the block below if there are any special requirements.
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Some sponsorship is available to access mobile data - please contact the organisers for more information. They should have a few specific software packages installed. Since this is an online workshop, participants need to have access to internet (listed <a href="#setup">below</a>).
 </p>
 
+  <p>
+  <strong>Application form</strong>:
+ Please use this <a href ="https://docs.google.com/forms/d/1mFcsq2yHrjQd9FRpARX2vuF9O3RWmCZheP0nE7SI_j4/edit?ts=5f8979f7"><b>application form</b></a>.
+ Successful candidates will be notified via email.
+</p>
+
 {% comment %}
 ACCESSIBILITY
 
