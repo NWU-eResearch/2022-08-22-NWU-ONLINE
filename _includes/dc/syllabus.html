@@ -59,8 +59,8 @@ The syllabus for the different curricula are listed here:
       <li><a href="https://datacarpentry.org/python-ecology-lesson/09-working-with-sql/index.html">Interacting with Databases with <code>pandas</code></a></li>
     </ul>
   </div>
-
-
+   {% else %}
+  {% include warning-flavor.html %}
 {% elsif site.curriculum == "dc-genomics" %}
 <div class="row">
   <div class="col-md-6">
@@ -150,6 +150,7 @@ The syllabus for the different curricula are listed here:
       <li><a href="https://datacarpentry.org/organization-geospatial/03-crs/index.html">Coordinate Reference Systems</a></li>
       <li><a href="https://datacarpentry.org/organization-geospatial/04-geo-landscape/index.html">The Geospatial Landscape</a></li>
     </ul>
+  </div>
   </div>
 
     <div class="col-md-6">
