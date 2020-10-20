@@ -1,4 +1,3 @@
-@@ -1,142 +1,142 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 venue: "NWU, South Africa "        # brief name of host site without address (e.g., "Euphoric State University")
@@ -111,12 +110,11 @@ Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
   <strong>Requirements:</strong> Participants must have access to a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Some sponsorship is available to access mobile data - please contact the organisers for more information. They should have a few specific software packages installed. Since this is an online workshop, participants need to have access to internet (listed <a href="#setup">below</a>).
+  <p>
   <strong>Application form</strong>:
- Please use this <a href ="https://forms.gle/yYitLCafkQV9oAmk9"><b>application form</b></a>.
  Please use this <a href ="https://docs.google.com/forms/d/1mFcsq2yHrjQd9FRpARX2vuF9O3RWmCZheP0nE7SI_j4/edit?ts=5f8979f7"><b>application form</b></a>.
  Successful candidates will be notified via email.
 </p>
-
 {% comment %}
 ACCESSIBILITY
 Modify the block below if there are any barriers to accessibility or
@@ -137,6 +135,7 @@ special instructions.
   in advance.  If we can help making learning easier for
  you.
 </p>
+
 {% comment %}
 CONTACT EMAIL ADDRESS
 Display the contact email address set in the configuration file.
@@ -262,16 +261,3 @@ please preview your site before committing, and make sure to run
 </p>
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
-{% elsif site.carpentry == "dc" %}
-{% include dc/setup.html %}
-{% elsif site.carpentry == "lc" %}
-{% include lc/setup.html %}
-{% endif %}
-{% comment %}
-Additional information taken from 
-https://github.com/UCSBCarpentry/2020-08-17-Summer-R
-{% endcomment %}
-<p>
-Additional R setup information is below.
-</p>
-{% include dc/r_setup.md %}
