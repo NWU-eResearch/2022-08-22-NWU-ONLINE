@@ -16,21 +16,30 @@ email: ["eresearch@nwu.ac.za"]    # boxed, comma-separated list of contact email
 collaborative_notes: https://pad.carpentries.org/2020-11-02-NWU-ONLINE   # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 #eventbrite:  119095205967 # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
+
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
+
 {% comment %}
 HEADER
+
 Edit the values in the block above to be appropriate for your workshop.
 If the value is not 'true', 'false', 'null', or a number, please use
 double quotation marks around the value, unless specified otherwise.
 And run 'make workshop-check' *before* committing to make sure that changes are good.
 {% endcomment %}
+
+
 {% comment %}
 8< ============= For a workshop delete from here =============
+
 8< ============================= until here ==================
 {% endcomment %}
+
+
 {% comment %}
 Check DC curriculum
 {% endcomment %}
+
 {% if site.carpentry == "dc" or site.carpentry == "dc" %}
 {% unless site.curriculum == "dc-ecology" or site.curriculum == "dc-genomics" or site.curriculum == "dc-socsci" or site.curriculum == "dc-geospatial" %}
 <div class="alert alert-warning">
@@ -38,8 +47,10 @@ It looks like you are setting up a website for a Data Carpentry curriculum but y
 </div>
 {% endunless %}
 {% endif %}
+
 {% comment %}
 EVENTBRITE
+
 This block includes the Eventbrite registration widget if
 'eventbrite' has been set in the header.  You can delete it if you
 are not using Eventbrite, or leave it in, since it will not be
@@ -54,9 +65,13 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
+
+
 <h2 id="general">General Information</h2>
+
 {% comment %}
 INTRODUCTION
+
 Edit the general explanatory paragraph below if you want to change
 the pitch.
 {% endcomment %}
@@ -67,8 +82,10 @@ the pitch.
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
+
 {% comment %}
 AUDIENCE
+
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
@@ -79,8 +96,10 @@ workshop is only open to people from a particular institution.
 {% elsif site.carpentry == "lc" %}
 {% include lc/who.html %}
 {% endif %}
+
 {% comment %}
 LOCATION
+
 This block displays the address and links to maps showing directions
 if the latitude and longitude of the workshop have been set.  You
 can use https://itouchmap.com/latlong.html to find the lat/long of an
@@ -89,12 +108,16 @@ address.
 {% if page.latitude and page.longitude %}
 <p id="where">
   <strong>Where:</strong>
-  This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is
-  <a href="//carpentries.zoom.us/my/carpentriesroom1">"https://carpentries.zoom.us/my/carpentriesroom3"</a>.  If needed, the password is **202020**.
+  
+    This is an online event. We will meet using the online videoconference software Zoom. You will need to <a href="https://zoom.us/download">download and install their client</a> to connect with your instructors. The link to use for this event is
+  
+  <a href="//carpentries.zoom.us/my/carpentriesroom1">"https://carpentries.zoom.us/my/carpentriesroom3?pwd=ZGY2VVRIRDhGSU84Uys1dEx1YXphZz09"</a>.  If needed, the password is **202020**.
 </p>
 {% endif %}
+
 {% comment %}
 DATE
+
 This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if page.humandate %}
@@ -104,19 +127,20 @@ This block displays the date and links to Google Calendar.
   {% include workshop_calendar.html %}
 </p>
 {% endif %}
+
 {% comment %}
 SPECIAL REQUIREMENTS
+
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must have access to a laptop with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Some sponsorship is available to access mobile data - please contact the organisers for more information. They should have a few specific software packages installed. Since this is an online workshop, participants need to have access to internet (listed <a href="#setup">below</a>).
-  <p>
-  <strong>Application form</strong>:
- Please use this <a href ="https://docs.google.com/forms/d/1mFcsq2yHrjQd9FRpARX2vuF9O3RWmCZheP0nE7SI_j4/edit?ts=5f8979f7"><b>application form</b></a>.
- Successful candidates will be notified via email.
+  <strong>Requirements:</strong> Be a postgraduate student in the Humanities and Social Sciences.  Participants must have access to a laptop with a
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. Some sponsorship is available to access mobile data - please contact the organisers for more information. They should have a few specific software packages installed. Since this is an online workshop, participants need to have access to internet (listed <a href="#setup">below</a>).
 </p>
+
 {% comment %}
 ACCESSIBILITY
+
 Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
@@ -130,7 +154,7 @@ special instructions.
  <li>Internet access for the duration of the workshop.</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
+    Materials will be provided in advance of the workshop and
  you will be able to ask the organisers for extra materials if needed
   in advance.  If we can help making learning easier for
  you.
@@ -138,6 +162,7 @@ special instructions.
 
 {% comment %}
 CONTACT EMAIL ADDRESS
+
 Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
@@ -159,32 +184,44 @@ Display the contact email address set in the configuration file.
   {% endif %}
   for more information.
 </p>
+
 <hr/>
+
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
 <h2 id="code-of-conduct">Code of Conduct</h2>
+
 <p>
 Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>.This document also outlines how to report an incident if needed.
 </p>
+
 <p class="text-center">
 <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
 </p>
 <hr/>
+
+
 {% comment %}
 Collaborative Notes
+
 If you want to use an Etherpad, go to
+
 http://pad.carpentries.org/YYYY-MM-DD-site
+
 where 'YYYY-MM-DD-site' is the identifier for your workshop,
 e.g., '2015-06-10-esu'.
 {% endcomment %}
 {% if page.collaborative_notes %}
 <h2 id="collaborative_notes">Collaborative Notes</h2>
+
 <p>
 We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 <hr/>
 {% endif %}
+
+
 {% comment %} 
 SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
@@ -192,14 +229,19 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p>Please be sure to complete these surveys before and after the workshop.</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+
 <hr/>
+
+
 {% comment %}
 SCHEDULE
+
 Show the workshop's schedule.  Edit the items and times in the table
 to match your plans.  You may also want to change 'Day 1' and 'Day
 2' to be actual dates or days of the week.
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
+
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
@@ -207,10 +249,14 @@ to match your plans.  You may also want to change 'Day 1' and 'Day
 {% elsif site.carpentry == "lc" %}
 {% include lc/schedule.html %}
 {% endif %}
+
 <hr/>
+
 {% comment %}
 SYLLABUS
+
 Show what topics will be covered.
+
 1. If your workshop is R rather than Python, remove the comment
 around that section and put a comment around the Python section.
 2. Some workshops will delete SQL.
@@ -218,11 +264,13 @@ around that section and put a comment around the Python section.
 intend to teach.
 4. You may need to move the div's with class="col-md-6" around inside
 the div's with class="row" to balance the multi-column layout.
+
 This is one of the places where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 <h2 id="syllabus">Syllabus</h2>
+
 {% if site.carpentry == "swc" %}
 {% include swc/syllabus.html %}
 {% elsif site.carpentry == "dc" %}
@@ -230,17 +278,23 @@ please preview your site before committing, and make sure to run
 {% elsif site.carpentry == "lc" %}
 {% include lc/syllabus.html %}
 {% endif %}
+
 <hr/>
+
 {% comment %}
 SETUP
+
 Delete irrelevant sections from the setup instructions.  Each
 section is inside a 'div' without any classes to make the beginning
 and end easier to find.
+
 This is the other place where people frequently make mistakes, so
 please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
+
 <h2 id="setup">Setup</h2>
+
 <p>
   To participate in a
   {% if site.carpentry == "swc" %}
@@ -259,5 +313,5 @@ please preview your site before committing, and make sure to run
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
-{% if site.carpentry == "swc" %}
-{% include swc/setup.html %}
+
+
